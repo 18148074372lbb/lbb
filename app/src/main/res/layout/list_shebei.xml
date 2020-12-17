@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_listview_item"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="120dip"
+        android:layout_height="140dip"
+        android:layout_gravity="left"
+        android:padding="10dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/list_pic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="m001"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="right"
+            android:text="使用中"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="男"
+            android:textSize="25sp"/>
+        
+    </LinearLayout>
+
+
+</LinearLayout>

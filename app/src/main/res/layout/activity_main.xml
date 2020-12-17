@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="0dp"
@@ -29,31 +29,29 @@
             android:id="@+id/tv_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="主页"
-            android:drawableTop="@mipmap/shebei1"
+            android:text="设备"
             android:textSize="13sp"
             android:gravity="center_horizontal"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            app:drawableTopCompat="@mipmap/shebei1" />
         <TextView
             android:id="@+id/tv_ranking"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="排行"
-            android:drawableTop="@mipmap/dingdan1"
+            android:text="订单"
             android:textSize="13sp"
             android:gravity="center_horizontal"
             android:layout_weight="1"
-            />
+            app:drawableTopCompat="@mipmap/dingdan1" />
         <TextView
             android:id="@+id/tv_mine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="我的"
-            android:drawableTop="@mipmap/mine1"
             android:textSize="13sp"
             android:gravity="center_horizontal"
             android:layout_weight="1"
-            />
+            app:drawableTopCompat="@mipmap/mine1" />
     </LinearLayout>
 
 

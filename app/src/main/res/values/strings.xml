@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name">xiyu</string>
     <string name="password_ti">请输入密码</string>
-    <string name="account_ti">请输入账号</string>
+    <string name="account_ti">请输入学号</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="fragment_mhome">设备</string>
     <string name="fragment_ranking">订单</string>
     <string name="fragment_mine">我的</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">订单</string>
     <string name="title_activity_distrib_main">DistribMainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

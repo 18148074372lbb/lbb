@@ -1,8 +1,10 @@
-package com.lbb.xiyu;
+package com.lbb.xiyu.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.lbb.xiyu.R;
 
 public class OderActivity extends AppCompatActivity {
 
